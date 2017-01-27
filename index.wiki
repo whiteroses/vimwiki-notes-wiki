@@ -1,1 +1,11 @@
-Vimwiki notes wiki
+= Vimwiki notes wiki =
+
+
+<L> = leader key (default `\`)
+
+[count]<L>ww
+	Open index file of [count]'s wiki.
+	Without count, opens first wiki from |g:vimwiki_list|.
+
+<L>ws
+	List and select available wikis.
