@@ -9,3 +9,11 @@
 
 <L>ws
 	List and select available wikis.
+
+
+<L>wd
+	Delete wiki page we're in.
+
+
+<L>wr
+	Rename wiki page we're in.
