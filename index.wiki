@@ -7,6 +7,7 @@
 	- Possible temporary hacks: could do something with custom LinkHandler/LinkConverter/IncludeHandler? And HTML could be included as-is with templates, but that would require separate file. All would be terrible though.
 
 
+== Basic commands ==
 
 <L> = leader key (default `\`)
 
