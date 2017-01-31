@@ -6,6 +6,8 @@
 	- vimwiki markup characters do not appear to be processed between backticks (can't even use three backticks here to express a backtick wrapped in `<code>` tags, which may be a bug) for `<code>`, or `{{{`s for `<pre>`. But what about when we don't want the text rapped in those tags?
 	- Possible temporary hacks: could do something with custom LinkHandler/LinkConverter/IncludeHandler? And HTML could be included as-is with templates, but that would require separate file. All would be terrible though.
 
+Unable to find a decent cross-platform alternative, so sticking with it for now.
+
 
 == Basic commands ==
 
