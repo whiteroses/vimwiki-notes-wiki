@@ -17,6 +17,9 @@ Unable to find a decent cross-platform alternative, so sticking with it for now.
 	Open index file of [count]'s wiki.
 	Without count, opens first wiki from |g:vimwiki_list|.
 
+[count]<L>wt
+	Open index file of [count]'s wiki in a new tab.
+	
 <L>ws
 	List and select available wikis.
 
