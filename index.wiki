@@ -47,3 +47,19 @@ Term 2::
 :: Definition 2
 :: Definition 3
 </kbd>
+
+
+== Searches ==
+
+`:VimwikiSearch /pattern/`
+`:VWS /pattern/`
+Search for /pattern/ in all files of current wiki.
+Then:
+`:lopen`: all matches
+`:lnext`: next match
+`:lprevious`: previous match
+
+`:VimwikiBacklinks`
+`:VWB`
+Search for wikilinks to current wiki page in all files of current wiki.
+`:lopen` etc., same as `:VWS`.
