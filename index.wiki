@@ -63,3 +63,17 @@ Then:
 `:VWB`
 Search for wikilinks to current wiki page in all files of current wiki.
 `:lopen` etc., same as `:VWS`.
+
+
+== Table of contents ==
+
+`:VimwikiTOC` creates the magic header
+`= Contents =`
+in the current file, and below it a table of contents generated from existing
+headers and subheaders in the file.
+
+Documentation says that if we don't want the TOC to sit in the very first line,
+we can put the magic header in the second or third line and run :VimwikiTOC to
+update the TOC. But there does not currently appear to be a way to change the
+header level of the Contents header, so it must be h1 -- meaning we can't have
+any other h1s in the file.
