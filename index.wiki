@@ -77,3 +77,27 @@ we can put the magic header in the second or third line and run :VimwikiTOC to
 update the TOC. But there does not currently appear to be a way to change the
 header level of the Contents header, so it must be h1 -- meaning we can't have
 any other h1s in the file.
+
+
+== Mathematical formulae ==
+
+Rendered in HTML using MathJax.
+
+Inline: `$$`
+
+Block:
+`{{$`
+`}}$`
+
+Block environment:
+`{{$%align$`
+`}}$`
+LaTeX environments.
+
+For needed MathJax js, either:
+
+`<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>`
+
+or, with local copy:
+
+`<script type="text/javascript" src="<mathjax_folder>/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>`
